@@ -1,0 +1,33 @@
+{
+  "name": "rentservicebd",
+  "version": "1.0.0",
+  "description": "rent service api v-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdjahidulalamsagar/rentservicebd.git"
+  },
+  "keywords": [
+    "rent",
+    "service",
+    "api",
+    "nodejs",
+    "express",
+    "axios"
+  ],
+  "author": "Md. Jahidul Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdjahidulalamsagar/rentservicebd/issues"
+  },
+  "homepage": "https://github.com/mdjahidulalamsagar/rentservicebd#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
