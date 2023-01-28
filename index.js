@@ -23,6 +23,15 @@ const SMS_API_SEND_SMS = 'send_sms'
 // otp function
 const otp = () => (Math.floor(Math.random() * 10000) + 10000).toString().substring(1);
 
+// db connection open & close
+const openDbConnection = () => {
+
+}
+
+const closeDbConnection = (connection) => {
+
+}
+
 // root url always for testing
 app.get('/', function (req, res) {
     res.send('Hello World')
